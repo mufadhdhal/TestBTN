@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>hitung</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>40df8b52-0b7c-4c9c-a65a-72f7591a1e29</testSuiteGuid>
+   <testCaseLink>
+      <guid>eb5dd9bd-be29-44b7-bab5-0703a6437050</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <iterationNameVariable>
+         <defaultValue>'https://www.btnproperti.co.id/tools/hitung-harga-properti'</defaultValue>
+         <description></description>
+         <id>23498188-8f43-4549-a8cd-d6c73fa67a38</id>
+         <masked>false</masked>
+         <name>url</name>
+      </iterationNameVariable>
+      <testCaseId>Test Cases/hitungProperti</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>9f3dc3e0-ccd0-45fd-82e1-095c3064ffc2</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>23498188-8f43-4549-a8cd-d6c73fa67a38</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9f3dc3e0-ccd0-45fd-82e1-095c3064ffc2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>penghasilan</value>
+         <variableId>ce69245d-7bb5-40a3-8766-33af55dcb820</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9f3dc3e0-ccd0-45fd-82e1-095c3064ffc2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pengeluaran</value>
+         <variableId>eeb3fd66-ff3c-442a-a988-ac4c87c6ff6c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9f3dc3e0-ccd0-45fd-82e1-095c3064ffc2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>tahun</value>
+         <variableId>7672bd41-6b43-4176-b142-ee9bbd91249b</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
